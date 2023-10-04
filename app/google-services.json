@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "64560746732",
+    "project_id": "cups-firebase",
+    "storage_bucket": "cups-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64560746732:android:1486e68b34a0fe71fd55c9",
+        "android_client_info": {
+          "package_name": "com.dicoding.picodiploma.coba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64560746732-tm3q4djbnubvav2u1vtak2qlov0f7lc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dicoding.picodiploma.coba",
+            "certificate_hash": "a52cedba3456fced011e217b68019db99e2c4eb1"
+          }
+        },
+        {
+          "client_id": "64560746732-m6d2u0l07vui7giuoenq713idgummho8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEoh5R0ovjduMVLcZwnhkDaA_6Um2Bufc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64560746732-m6d2u0l07vui7giuoenq713idgummho8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

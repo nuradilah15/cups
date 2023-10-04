@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_bar_layout_addpost"
+        android:background="@android:color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/addpost_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@android:color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_cancel"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:text="Cancel"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#007FAC"
+                    app:fontFamily="@font/poppinssemibold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/tv_upload"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:text="Upload"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#007FAC"
+                    app:drawableTint="#007FAC"
+                    app:fontFamily="@font/poppinssemibold" />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/app_bar_layout_addpost">
+
+        <ImageView
+            android:id="@+id/image_post"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_stub"
+            android:contentDescription="TODO" />
+
+        <EditText
+            android:id="@+id/deskripsi_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Tulis Deskripsi"
+            android:maxLines="6"
+            android:minHeight="48dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
